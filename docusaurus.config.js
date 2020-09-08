@@ -1,21 +1,22 @@
 module.exports = {
-  title: 'Domino Editor',
-  tagline: 'A Block-Style Web Document Editor',
+  title: 'Domino-Editor',
+  tagline: 'A Block-Style Web Content Editor',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
+  onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
+  organizationName: 'psyhyde', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Domino Editor',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
       },
-      links: [
+      items: [
         {
-          to: 'docs/doc1',
+          to: 'docs/',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
@@ -35,12 +36,12 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/doc1',
+              label: 'Domino Editor',
+              to: 'docs/',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2',
+              label: 'Docusaurus Style Guide',
+              to: 'docs/docstyle/',
             },
           ],
         },
@@ -75,7 +76,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Domino Editor, Psyhyde.`,
     },
   },
   presets: [
@@ -86,7 +87,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/psyhyde',
         },
         blog: {
           showReadingTime: true,

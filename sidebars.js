@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
-    Docusaurus: ['doc1', 'doc2', 'doc3', 'doc4'],
+    Block_Style_Editor: ['doc1', 'doc2', 'doc3', 'docstyle'],
     Features: ['mdx'],
   },
 };
