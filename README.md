@@ -47,7 +47,7 @@ A Playbook for Block Style Editor (**BSE**): Text Styling, Block Components, Mis
 
 ![contentheadingblockstructure](static/assets1/contentheadingblockstructure.png)
 
-- Example Style & CSS
+#### Example Style & CSS
 
 ![exampleStyleCSSattribute](static/assets1/exampleStyleCSSattribute.png)
 
