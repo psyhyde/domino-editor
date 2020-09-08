@@ -48,7 +48,7 @@ A Playbook for Block Style Editor: Text Styling, Block Components, Misc Function
 
 ![contentheadingblockstructure](../static/assets1/contentheadingblockstructure.png)
 
-- Example Style & CSS
+#### Example Style & CSS
 
 ![exampleStyleCSSattribute](../static/assets1/exampleStyleCSSattribute.png)
 
@@ -64,7 +64,8 @@ import TabItem from '@theme/TabItem';
     {label: 'Orange', value: 'orange'},
     {label: 'Banana', value: 'banana'},
   ]}>
-  <TabItem value="apple">![exampleStyleCSSattribute](../static/assets1/exampleStyleCSSattribute.png)</TabItem>
+  <TabItem value="apple"><img src={require('../static/assets1/exampleStyleCSSattribute.png').default} /></TabItem>
   <TabItem value="orange">This is an orange 🍊</TabItem>
   <TabItem value="banana">This is a banana 🍌</TabItem>
 </Tabs>;
+

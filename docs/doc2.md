@@ -7,6 +7,7 @@ A **Text Block** is the most used and most common block in a **BSE**. Its stylin
 
 **Inline** and **Block** are actually HTML concepts for **inline elements** and **block elements** [^[W3School]^](https://www.w3schools.com/html/html_blocks.asp).  Here, we take the concept to UX/UI level, emphasizing on their visual and interaction properties.   
 
+---
 ## Inline Text Style
 
 We expect most below Styles/Effects can stack upon each other, like **Bold** + *Italic* + <u>Underline</u> + ~~Strikethrough~~ = <u>***~~Stacked Style~~***</u>

@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Domino-Editor',
   tagline: 'A Block-Style Web Content Editor',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://github.com/psyhyde/domino-editor',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
@@ -23,7 +23,7 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/psyhyde/domino-editor',
           label: 'GitHub',
           position: 'right',
         },
@@ -46,19 +46,23 @@ module.exports = {
           ],
         },
         {
-          title: 'Community',
+          title: 'More about Psyhyde',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'My Design Docs',
+              href: 'https://psyhyde.github.io/Design-Docs/#/',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Behance',
+              href: 'https://www.behance.net/hydeluo',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'YuQue',
+              href: 'https://www.yuque.com/psyhyde',
+            },
+            {
+              label: 'Medium',
+              href: 'https://medium.com/@psyhyde',
             },
           ],
         },
@@ -71,7 +75,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/psyhyde/domino-editor',
             },
           ],
         },
@@ -87,13 +91,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/psyhyde',
+            'https://github.com/psyhyde/domino-editor',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/psyhyde/domino-editor/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
