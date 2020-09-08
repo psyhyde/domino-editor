@@ -1,6 +1,7 @@
 ---
 id: doc4
 title: Block Style Editor (EN)
+sidebar_label: Block Style Editor (EN)
 ---
 
 A Playbook for Block Style Editor (**BSE**): Text Styling, Block Components, Misc Functions & Theme Switcher 
