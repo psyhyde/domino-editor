@@ -35,7 +35,7 @@ A Playbook for Block Style Editor (**BSE**): Text Styling, Block Components, Mis
 
 ### Block Type Classification
 
-<img src="assets/Block_Classification.png" alt="Block_Classification" style="zoom: 33%;" />
+![Block_Classification](static/assets1/Block_Classification.png)
 
 ### UI Structure of Block-Style Editor
 
