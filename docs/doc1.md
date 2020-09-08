@@ -1,202 +1,70 @@
 ---
 id: doc1
-title: Style Guide
-sidebar_label: Style Guide
+title: Concept of Block Style Editor
+sidebar_label: Concept 
+slug: /
 ---
 
-You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
-
-## Markdown Syntax
-
-To serve as an example page when styling markdown based Docusaurus sites.
-
-## Headers
-
-# H1 - Create the best documentation
-
-## H2 - Create the best documentation
-
-### H3 - Create the best documentation
-
-#### H4 - Create the best documentation
-
-##### H5 - Create the best documentation
-
-###### H6 - Create the best documentation
+A Playbook for Block Style Editor: Text Styling, Block Components, Misc Functions & Theme Switcher 
 
 ---
 
-## Emphasis
+**Tags:** 
 
-Emphasis, aka italics, with _asterisks_ or _underscores_.
-
-Strong emphasis, aka bold, with **asterisks** or **underscores**.
-
-Combined emphasis with **asterisks and _underscores_**.
-
-Strikethrough uses two tildes. ~~Scratch this.~~
+`Block Style Editor`;`Block Structure Editor`; `New-Gen Editor`; `WYSIWYG Markdown Editor`; `Modular Visual Components`; `Structured Content`; `Web-based Text Editor`; `Rich Content Editor`; `CMS`; 
 
 ---
 
-## Lists
+## About Block-Style Editor
 
-1. First ordered list item
-1. Another item ⋅⋅\* Unordered sub-list.
-1. Actual numbers don't matter, just that it's a number ⋅⋅1. Ordered sub-list
-1. And another item.
+### Definition
 
-⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
+- **Background of Block-Style Editor：**
+  
+  - Markdown, for its high readability and simple syntax, has been adopted widely; Pure Markdown editing is [WYSIWYM](https://en.wikipedia.org/wiki/WYSIWYM)
+  - Most Web-based RTF editors follow [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) interaction pattern
+  - Block Style Editors provide a Markdown-like but WYSIWYG editing experience
+  - On UX and interaction level, BSE provides a similar experience to [Typora](https://typora.io/), [MarkText](https://marktext.app/), but with integrated Mini-App Blocks
 
-⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅ ⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅ ⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
+- **Features of Block-Style Editor：**
+  
+  - Follow a structure of **Markdown (Template) + CSS + Fonts**
+  - Inherent the **text styling rules** of Markdown, keep its simplicity and content-focusing approach; Remove features like: line spacing, font size, font color
+  - Expand text editing into **Text Editing & Styling** and **Mini-App Customization**
+  - Mini-App Blocks: table, image container, advanced code block, prefabricated UI view, embeds.  
+  - **A web-based Content Editor** that, take **Interactive Document** and **Modular UI** as guideline, use **Block or Paragraph** as content unit, use **Markdown** as its Template Structure. 
 
-- Unordered list can use asterisks
+> Block-Style Editor has its roots in CMS(content management system), SSG (static site generator), GitHub& Markdown, MDX, JSX, and Low-code Site Building. 
+>
+> In a sense, a Block Style Editor is a Modular CMS for web document use case.
 
-* Or minuses
+### Block Type Classification
 
-- Or pluses
+![Block_Classification.png](../static/assets1/Block_Classification.png)
 
----
+### UI Structure of Block-Style Editor
 
-## Links
+### Content-Heading-Block Structure
 
-[I'm an inline-style link](https://www.google.com)
+![contentheadingblockstructure](../static/assets1/contentheadingblockstructure.png)
 
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+- Example Style & CSS
 
-[I'm a reference-style link][arbitrary case-insensitive reference text]
-
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself].
-
-URLs and URLs in angle brackets will automatically get turned into links. http://www.example.com or <http://www.example.com> and sometimes example.com (but not on Github, for example).
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
+![exampleStyleCSSattribute](../static/assets1/exampleStyleCSSattribute.png)
 
 ---
 
-## Images
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-Here's our logo (hover to see the title text):
-
-Inline-style: ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 1')
-
-Reference-style: ![alt text][logo]
-
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 2'
-
----
-
-## Code
-
-```javascript
-var s = 'JavaScript syntax highlighting';
-alert(s);
-```
-
-```python
-s = "Python syntax highlighting"
-print(s)
-```
-
-```
-No language indicated, so no syntax highlighting.
-But let's throw in a <b>tag</b>.
-```
-
-```js {2}
-function highlightMe() {
-  console.log('This line can be highlighted!');
-}
-```
-
----
-
-## Tables
-
-Colons can be used to align columns.
-
-| Tables        |      Are      |   Cool |
-| ------------- | :-----------: | -----: |
-| col 3 is      | right-aligned | \$1600 |
-| col 2 is      |   centered    |   \$12 |
-| zebra stripes |   are neat    |    \$1 |
-
-There must be at least 3 dashes separating each header cell. The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
-
-| Markdown | Less      | Pretty     |
-| -------- | --------- | ---------- |
-| _Still_  | `renders` | **nicely** |
-| 1        | 2         | 3          |
-
----
-
-## Blockquotes
-
-> Blockquotes are very handy in email to emulate reply text. This line is part of the same quote.
-
-Quote break.
-
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can _put_ **Markdown** into a blockquote.
-
----
-
-## Inline HTML
-
-<dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
-
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
-
----
-
-## Line Breaks
-
-Here's a line for us to start with.
-
-This line is separated from the one above by two newlines, so it will be a _separate paragraph_.
-
-This line is also a separate paragraph, but... This line is only separated by a single newline, so it's a separate line in the _same paragraph_.
-
----
-
-## Admonitions
-
-:::note
-
-This is a note
-
-:::
-
-:::tip
-
-This is a tip
-
-:::
-
-:::important
-
-This is important
-
-:::
-
-:::caution
-
-This is a caution
-
-:::
-
-:::warning
-
-This is a warning
-
-:::
+<Tabs
+  defaultValue="apple"
+  values={[
+    {label: 'Apple', value: 'apple'},
+    {label: 'Orange', value: 'orange'},
+    {label: 'Banana', value: 'banana'},
+  ]}>
+  <TabItem value="apple">![exampleStyleCSSattribute](../static/assets1/exampleStyleCSSattribute.png)</TabItem>
+  <TabItem value="orange">This is an orange 🍊</TabItem>
+  <TabItem value="banana">This is a banana 🍌</TabItem>
+</Tabs>;
